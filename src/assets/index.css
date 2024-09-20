@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+:root {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(254, 254, 254, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*, *::after, *::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+img{
+  width: 100%;
+}
+
+canvas {
+  cursor: grab;
+}
+
+canvas:active{
+  cursor: grabbing;
+}
+:root {
+  --background-color: rgb(125, 24, 24);
+  --text-color: black;
+}
+
+/*.dark-mode {
+  --background-color: black;
+  --text-color: white;
+}
+/* Add these styles to your CSS or styled components */
+
+
+
+body.dark-mode {
+  background-color: #121212; /* Dark mode background */
+  color: #fff; /* Dark mode text color */
+}
+body.light-mode {
+  color: #121212;
+  background-color: bisque;
+}
+
+/* Ensure other elements (buttons, text, etc.) retain their styles */
+
+//body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.theme-toggle {
+  cursor: pointer;
+  margin-left: 10px; /* Add some space between the contact and the toggle button */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+#projects {
+  color: blue;
+}
+#contact {
+  color: blue;
+}
+#about {
+  color: blue;
+}
+#experience {
+  color: blue;
+}
+.sc-dmctIk .fZILlC {
+  color: #3B92E4
+}
+.eLVpgA {
+  grid-column: 2 / 13;
+  font-size: 3.157rem;
+  font-weight: bold;
+  color: #3B92E4;
+  padding-block: 1.25rem;
+  background: white;
+  background:  #3B92E4;
+  line-height: 1;
+  
+  -webkit-text-fill-color: transparent;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
